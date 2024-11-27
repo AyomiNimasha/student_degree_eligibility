@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from fast_api_app.app.models.schema import StudentResults, EligibilityResponse
-from fast_api_app.app.crud.eligibility_check import check_eligibility
+from models import StudentResults, EligibilityResponse
+from eligibility_check import check_eligibility
 
 app = FastAPI()
 
